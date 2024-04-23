@@ -35,12 +35,8 @@ jobs:
         run: pnpm install
       - name: Utils
         run: cd packages/utils/ && pnpm run build
-      - name: CdPackages
-        run: cd ..
       - name: WebUI
-        run: cd eeeyou-web-ui/ && pnpm run build
-      - name: CdRoot
-        run: cd ../../
+        run: cd packages/eeeyou-web-ui/ && pnpm run build
       # 5、打包
       - name: Build
         run: pnpm run docs:build
