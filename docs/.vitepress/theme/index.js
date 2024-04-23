@@ -9,7 +9,7 @@ export default {
     app.mixin({
       async mounted() {
         import('../../../packages/eeeyou-web-ui/index.js').then(module => {
-            Vue.use(module.default);
+            app.use(module.default);
         })
       },
     });
@@ -29,7 +29,7 @@ export default {
  * app.mixin({
  *   async mounted() {
  *     import('../../../packages/eeeyou-web-ui/index.js').then(module => {
- *       Vue.use(module.default);
+ *       app.use(module.default);
  *     })
  *   },
  * });
