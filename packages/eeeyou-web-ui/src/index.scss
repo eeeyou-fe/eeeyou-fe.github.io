@@ -1,0 +1,66 @@
+// dialog
+.el-overlay-dialog {
+  display: flex;
+  align-items: center;
+  .el-dialog {
+    margin-top: 0;
+    margin-bottom: 0;
+    .el-dialog__body {
+      border: 0;
+      border-top: 1px solid var(--el-border-color-lighter);
+      padding: 18px 0 18px;
+      margin: 10px 0 6px;
+      overflow: hidden;
+      display: flex;
+    }
+    .el-dialog__footer {
+      padding-bottom: 16px;
+      border-top: 1px solid var(--el-border-color-lighter);
+      .el-button {
+        padding: 6px 12px;
+      }
+    }
+  }
+}
+
+.el-form-item {
+  margin-bottom: 16px;
+}
+
+.el-menu-item,
+.el-sub-menu__title {
+  height: 44px;
+}
+
+.el-loading-mask {
+  background-color: transparent;
+  z-index: 3000 !important;
+}
+
+.el-message-box {
+  padding: 12px 8px 20px;
+  .el-message-box__header {
+    padding-left: 50px;
+  }
+  .el-message-box__status {
+    top: -30px;
+  }
+}
+
+.el-button + .el-dropdown {
+  margin-left: 10px;
+}
+
+// 去除hover效果
+.el-table {
+  .el-table__row {
+    &:hover > td {
+      background: var(--el-bg-color) !important;
+    }
+    &.el-table__row--striped {
+      &:hover > td {
+        background: var(--el-fill-color-lighter) !important;
+      }
+    }
+  }
+}

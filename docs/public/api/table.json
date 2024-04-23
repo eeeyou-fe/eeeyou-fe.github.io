@@ -1,0 +1,111 @@
+{
+    "time": "2024-04-19 19:46:37.674",
+    "code": 20000,
+    "data": {
+        "dataList": [
+            {
+                "logId": "b48b4756-4c27-e176-6968-17e888ee01e9",
+                "createTime": "2024-04-19 19:46:36",
+                "ip": "114.241.209.78",
+                "url": "MsCommon\/getOperateLogList",
+                "name": "操作日志列表",
+                "uccName": "徐海龙",
+                "phone": "12233445566",
+                "request": "{\"MsCommon\\\/getOperateLogList\":\"\",\"page\":1,\"limit\":10}"
+            },
+            {
+                "logId": "ae143078-bc60-ca63-dacf-c94cd557fc0d",
+                "createTime": "2024-04-19 19:46:29",
+                "ip": "114.241.209.78",
+                "url": "MsNotice\/getNoticeList",
+                "name": "公告列表",
+                "uccName": "徐海龙",
+                "phone": "12233445566",
+                "request": "{\"MsNotice\\\/getNoticeList\":\"\",\"page\":1,\"limit\":1,\"isStrongRemind\":1}"
+            },
+            {
+                "logId": "ecef286e-8db7-9a40-dde5-9604a8d869d9",
+                "createTime": "2024-04-19 19:46:29",
+                "ip": "114.241.209.78",
+                "url": "AppCommon\/checkAppVersion",
+                "name": "app版本更新",
+                "uccName": "徐海龙",
+                "phone": "12233445566",
+                "request": "{\"AppCommon\\\/checkAppVersion\":\"\"}"
+            },
+            {
+                "logId": "14edc344-f000-8e07-f848-7fd4afdaf3be",
+                "createTime": "2024-04-19 18:28:35",
+                "ip": "114.241.209.78",
+                "url": "MsNotice\/getNoticeList",
+                "name": "公告列表",
+                "uccName": "易油",
+                "phone": "18877665544",
+                "request": "{\"MsNotice\\\/getNoticeList\":\"\",\"page\":1,\"limit\":1,\"isStrongRemind\":1}"
+            },
+            {
+                "logId": "b31d66d6-2c6f-1873-62b5-905bb3d80029",
+                "createTime": "2024-04-19 18:28:35",
+                "ip": "114.241.209.78",
+                "url": "MsAd\/getAdPosition",
+                "name": "广告",
+                "uccName": "易油",
+                "phone": "18877665544",
+                "request": "{\"MsAd\\\/getAdPosition\":\"\",\"code\":\"homePageBanner\"}"
+            },
+            {
+                "logId": "a541228f-8c51-0ebf-b356-f108f7149cf4",
+                "createTime": "2024-04-19 18:28:35",
+                "ip": "114.241.209.78",
+                "url": "AppOrder\/getGoodsList",
+                "name": "市场列表",
+                "uccName": "易油",
+                "phone": "18877665544",
+                "request": "{\"AppOrder\\\/getGoodsList\":\"\",\"conditionList\":[],\"keyword\":\"\",\"lastId\":0,\"isLike\":1}"
+            },
+            {
+                "logId": "93b30ec4-5a4c-cc2c-b497-6dc11604f391",
+                "createTime": "2024-04-19 18:28:30",
+                "ip": "114.241.209.78",
+                "url": "MsAd\/getAdPosition",
+                "name": "广告",
+                "uccName": "易油",
+                "phone": "18877665544",
+                "request": "{\"MsAd\\\/getAdPosition\":\"\",\"code\":\"homePageBanner\"}"
+            },
+            {
+                "logId": "eca89c3f-c0f9-a42c-9cf3-150e9a02cf4c",
+                "createTime": "2024-04-19 18:28:30",
+                "ip": "114.241.209.78",
+                "url": "AppOrder\/getGoodsList",
+                "name": "市场列表",
+                "uccName": "易油",
+                "phone": "18877665544",
+                "request": "{\"AppOrder\\\/getGoodsList\":\"\",\"conditionList\":[],\"keyword\":\"\",\"lastId\":0,\"isLike\":1}"
+            },
+            {
+                "logId": "5a816db5-a442-5864-40c8-e9a6aafe01f4",
+                "createTime": "2024-04-19 18:28:30",
+                "ip": "114.241.209.78",
+                "url": "MsNotice\/getNoticeList",
+                "name": "公告列表",
+                "uccName": "易油",
+                "phone": "18877665544",
+                "request": "{\"MsNotice\\\/getNoticeList\":\"\",\"page\":1,\"limit\":1,\"isStrongRemind\":1}"
+            },
+            {
+                "logId": "38cfc1fb-aeb0-cb65-43af-4d36e47ec857",
+                "createTime": "2024-04-19 18:28:28",
+                "ip": "114.241.209.78",
+                "url": "MsNotice\/getNoticeList",
+                "name": "公告列表",
+                "uccName": "易油",
+                "phone": "18877665544",
+                "request": "{\"MsNotice\\\/getNoticeList\":\"\"}"
+            }
+        ],
+        "dataCount": 20,
+        "conditionList": []
+    },
+    "message": "请求成功"
+}

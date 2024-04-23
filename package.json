@@ -1,0 +1,14 @@
+{
+  "name": "eeeyou",
+  "version": "1.0.0",
+  "description": "易油前端脚手架",
+  "author": "xuhailong",
+  "license": "ISC",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.1.3"
+  }
+}

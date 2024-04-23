@@ -1,0 +1,33 @@
+{
+  "name": "@eeeyou/utils",
+  "version": "0.0.2",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./dist/*.js"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "xuhailong",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "awesome-qr": "2.1.5-rc.0",
+    "dayjs": "1.11.10",
+    "echarts": "5.5.0",
+    "file-saver": "2.0.5",
+    "html2canvas": "1.4.1",
+    "jsencrypt": "3.3.2",
+    "jspdf": "2.5.1",
+    "jszip": "3.10.1",
+    "lodash": "4.17.21",
+    "md5": "2.3.0",
+    "rollup": "^4.14.1",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "uuid": "9.0.1",
+    "xlsx-js-style": "1.2.0"
+  }
+}

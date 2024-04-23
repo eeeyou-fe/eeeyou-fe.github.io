@@ -1,0 +1,19 @@
+{
+  "name": "eeeyou-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@eeeyou/utils": "^0.0.1",
+    "@eeeyou/web-ui": "^0.0.1",
+    "vue": "3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "~4.6.2",
+    "vite": "4.5.3"
+  }
+}
