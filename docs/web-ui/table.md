@@ -6,7 +6,9 @@ outline: deep
 
 ## 基础用法
 
-<ey-table :column="column" :data="data"></ey-table>
+<client-only>
+  <ey-table :column="column" :data="data"></ey-table>
+</client-only>
 
 ::: code-group
 
@@ -18,7 +20,9 @@ outline: deep
 
 ## 高级搜索
 
-<ey-table :column="column" :data="data" :search="search"></ey-table>
+<client-only>
+  <ey-table :column="column" :data="data" :search="search"></ey-table>
+</client-only>
 
 ::: code-group
 
@@ -30,7 +34,9 @@ outline: deep
 
 ## 导出数据
 
-<ey-table :column="column" :data="data" export="导出"></ey-table>
+<client-only>
+  <ey-table :column="column" :data="data" export="导出"></ey-table>
+</client-only>
 
 ::: code-group
 
