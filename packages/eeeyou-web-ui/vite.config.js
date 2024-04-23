@@ -26,7 +26,6 @@ export default defineConfig({
       fileName: 'web-ui',
       name: 'web-ui',
     },
-    watch: {},
   },
   css: {
     preprocessorOptions: {
