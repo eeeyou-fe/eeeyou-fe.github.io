@@ -33,8 +33,12 @@ jobs:
       # 4、安装依赖
       - name: Install
         run: pnpm install
+      - name: Utils
+        run: cd packages/utils/ && pnpm run build
+      - name: CdPackages
+        run: cd ..
       - name: WebUI
-        run: cd packages/eeeyou-web-ui/ && pnpm run build
+        run: cd eeeyou-web-ui/ && pnpm run build
       - name: CdRoot
         run: cd ../../
       # 5、打包
