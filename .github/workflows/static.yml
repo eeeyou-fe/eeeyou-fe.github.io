@@ -34,9 +34,7 @@ jobs:
       - name: Install
         run: pnpm install
       - name: WebUI
-        run: cd packages/eeeyou-web-ui/
-      - name: WebDist
-        run: pnpm run build
+        run: cd packages/eeeyou-web-ui/ && pnpm run build
       - name: CdRoot
         run: cd ../../
       # 5、打包
