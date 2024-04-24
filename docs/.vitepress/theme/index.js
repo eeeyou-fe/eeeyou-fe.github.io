@@ -3,9 +3,12 @@ import "../../../packages/eeeyou-web-ui/dist/index.css";
 // import WebUi from "../../../packages/eeeyou-web-ui/index.js";
 
 export default {
-  extends: DefaultTheme,
-  enhanceApp({ app }) {
+  ...DefaultTheme,
+  NotFound: () => "404",
+  enhanceApp: async (ctx) => {
     // app.use(WebUi);
+    let { app } = ctx;
+    DefaultTheme.enhanceApp(ctx);
     app.mixin({
       async mounted() {
         import('../../../packages/eeeyou-web-ui/index.js').then(module => {
