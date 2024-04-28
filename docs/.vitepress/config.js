@@ -13,7 +13,7 @@ export default {
     },
     nav: [
       { text: "脚手架", link: "/guide/features", activeMatch: "/guide/" },
-      { text: "UI组件", link: "/web-ui/features", activeMatch: "/web-ui/" },
+      { text: "UI库", link: "/web-ui/features", activeMatch: "/web-ui/" },
       { text: "函数库", link: "/utils/features", activeMatch: "/utils/" },
     ],
     sidebar: {
@@ -32,13 +32,14 @@ export default {
           collapsed: false,
           items: [
             { text: "特性", link: "/web-ui/features" },
-            { text: "快速开始", link: "/web-ui/started" },
+            { text: "快速上手", link: "/web-ui/started" },
           ],
         },
         {
           text: "组件",
           collapsed: false,
           items: [
+            { text: "Card", link: "/web-ui/card" },
             { text: "Dialog", link: "/web-ui/dialog" },
             { text: "Table", link: "/web-ui/table" },
           ],

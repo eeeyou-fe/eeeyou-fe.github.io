@@ -41,6 +41,7 @@ pnpm create eeeyou my-vue-web --t web
 
 ## 文件结构
 
+#### Web 模板
 ```
 .
 ├─ .vscode

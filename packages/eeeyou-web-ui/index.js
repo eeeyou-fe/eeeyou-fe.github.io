@@ -7,14 +7,18 @@ import zhCn from 'element-plus/es/locale/lang/zh-cn';
 import createRouter from './src/router';
 import createHttp from './src/axios';
 
+import EyCard from './src/card';
 import EyDialog from './src/dialog';
-import EyTable from './src/table';
 import EyMenuItem from './src/menu-item';
+import EyTable from './src/table';
+import EyTag from './src/tag';
 
 const components = {
+  EyCard,
   EyDialog,
   EyMenuItem,
   EyTable,
+  EyTag,
 };
 
 let http;
