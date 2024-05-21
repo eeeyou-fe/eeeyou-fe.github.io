@@ -15,6 +15,7 @@ export default {
       { text: "脚手架", link: "/guide/features", activeMatch: "/guide/" },
       { text: "UI库", link: "/web-ui/features", activeMatch: "/web-ui/" },
       { text: "函数库", link: "/utils/features", activeMatch: "/utils/" },
+      { text: "Livekit", link: "/livekit/features", activeMatch: "/livekit/" },
     ],
     sidebar: {
       "/guide/": [
@@ -61,6 +62,23 @@ export default {
           ],
         },
       ],
+      "/livekit/": [
+        {
+          text: "客户端",
+          collapsed: false,
+          items: [
+            { text: "特性", link: "/livekit/features" },
+            { text: "快速上手", link: "/livekit/started" },
+            { text: "连接到房间", link: "/livekit/connecting" },
+            { text: "发布Tracks", link: "/livekit/publishing" },
+            { text: "接收Tracks", link: "/livekit/receiving" },
+            { text: "数据消息", link: "/livekit/messages" },
+            { text: "事件处理", link: "/livekit/events" },
+            { text: "配置项", link: "/livekit/options" },
+            { text: "附录", link: "/livekit/appendix" },
+          ],
+        },
+      ]
     },
   },
 };

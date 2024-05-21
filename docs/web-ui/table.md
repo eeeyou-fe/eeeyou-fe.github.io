@@ -108,6 +108,7 @@ import { ref } from 'vue';
 
 const tableRef = ref();
 const data = ref({
+  method: 'get',
   url: "/table.json",
 });
 const column = ref([
