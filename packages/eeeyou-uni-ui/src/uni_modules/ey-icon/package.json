@@ -1,0 +1,17 @@
+{
+  "id": "ey-icon",
+  "displayName": "EyouUI 图标",
+  "version": "0.1.0",
+  "description": "图标组件，用于展示移动端常见的图标",
+  "keywords": [
+    "图标"
+],
+  "dcloudext": {
+    "type": "component-vue",
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "eyou-ui",
+  "displayName": "EyouUI",
+  "version": "0.0.1",
+  "description": "EyouUI，基于uni-app开发生态的移动端跨平台UI框架",
+  "keywords": [
+    "EyouUI",
+    "易油互联"
+],
+  "repository": "https://github.com/eeeyou-fe",
+  "engines": {
+    "HBuilderX": "^3.1.0"
+  },
+  "dcloudext": {
+    "type": "component-vue",
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    }
+  },
+  "uni_modules": {
+    "dependencies": [
+      "ey-icon"
+    ],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y",
+        "alipay": "y"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "y",
+          "vue3": "y"
+        },
+        "App": {
+          "app-vue": "y"
+        },
+        "H5-mobile": {
+          "Safari": "y",
+          "Android Browser": "y",
+          "微信浏览器(Android)": "y",
+          "QQ浏览器(Android)": "y"
+        },
+        "H5-pc": {
+          "Chrome": "y",
+          "IE": "y",
+          "Edge": "y",
+          "Firefox": "y",
+          "Safari": "y"
+        },
+        "小程序": {
+          "微信": "y",
+          "阿里": "y",
+          "百度": "y",
+          "字节跳动": "y",
+          "QQ": "y",
+          "钉钉": "y",
+          "快手": "y",
+          "飞书": "y",
+          "京东": "y"
+        },
+        "快应用": {
+          "华为": "y",
+          "联盟": "y"
+        }
+      }
+    }
+  }
+}

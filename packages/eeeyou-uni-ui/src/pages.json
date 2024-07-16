@@ -1,0 +1,33 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/help/help"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "EyouUI",
+		"navigationBarBackgroundColor": "#D12B27"
+	},
+	"tabBar": {
+		"color": "#303133",
+		"selectedColor": "#D12B27",
+		"list": [
+			{
+				"selectedIconPath": "static/tabbar/index2.png",
+				"iconPath": "static/tabbar/index1.png",
+				"pagePath": "pages/index/index",
+				"text": "组件"
+			},
+			{
+				"selectedIconPath": "static/tabbar/help2.png",
+				"iconPath": "static/tabbar/help1.png",
+				"pagePath": "pages/help/help",
+				"text": "帮助"
+			}
+		],
+	}
+}
