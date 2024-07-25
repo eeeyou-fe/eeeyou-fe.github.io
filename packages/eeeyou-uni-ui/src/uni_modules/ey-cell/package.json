@@ -1,0 +1,22 @@
+{
+  "id": "ey-cell",
+  "displayName": "EyouUI 单元格",
+  "version": "0.0.1",
+  "description": "单元格组件，用于展示移动端一组列表的情况",
+  "keywords": [
+    "单元格"
+  ],
+  "dcloudext": {
+    "type": "component-vue",
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    }
+  },
+  "uni_modules": {
+    "dependencies": [
+      "ey-icon"
+    ]
+  }
+}

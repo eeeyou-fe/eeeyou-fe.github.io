@@ -1,0 +1,22 @@
+{
+  "id": "ey-title",
+  "displayName": "EyouUI 标题",
+  "version": "0.0.1",
+  "description": "标题组件，用于展示移动端的标题信息",
+  "keywords": [
+    "标题"
+  ],
+  "dcloudext": {
+    "type": "component-vue",
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    }
+  },
+  "uni_modules": {
+    "dependencies": [
+      "ey-icon"
+    ]
+  }
+}

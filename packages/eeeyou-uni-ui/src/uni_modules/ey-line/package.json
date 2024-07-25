@@ -1,0 +1,17 @@
+{
+  "id": "ey-line",
+  "displayName": "EyouUI 线段",
+  "version": "0.0.1",
+  "description": "线段组件，用于展示移动端一条线段",
+  "keywords": [
+    "线段"
+  ],
+  "dcloudext": {
+    "type": "component-vue",
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    }
+  }
+}

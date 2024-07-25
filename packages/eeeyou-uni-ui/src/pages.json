@@ -5,16 +5,32 @@
 		},
 		{
 			"path": "pages/help/help"
+		},
+		{
+			"path": "pages/components/cell/cell"
+		},
+		{
+			"path": "pages/components/icon/icon"
+		},
+		{
+			"path": "pages/components/layout/layout"
+		},
+		{
+			"path": "pages/components/button/button"
+		},
+		{
+			"path": "pages/components/tag/tag"
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "EyouUI",
-		"navigationBarBackgroundColor": "#D12B27"
+		"navigationBarBackgroundColor": "#409EFF"
 	},
 	"tabBar": {
+		"fontSize": "12px",
 		"color": "#303133",
-		"selectedColor": "#D12B27",
+		"selectedColor": "#409EFF",
 		"list": [
 			{
 				"selectedIconPath": "static/tabbar/index2.png",
@@ -28,6 +44,6 @@
 				"pagePath": "pages/help/help",
 				"text": "帮助"
 			}
-		],
+		]
 	}
 }
