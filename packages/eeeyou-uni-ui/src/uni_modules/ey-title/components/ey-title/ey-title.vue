@@ -5,7 +5,7 @@
         <view class="line" v-if="!icon"></view>
         <ey-icon :type="icon" :size="largeFontSize" :color="primaryColor" v-else></ey-icon>
         <text class="text" :style="{ color: color }">{{ title }}</text>
-        <view class="bubble" v-if="num > 0">{{ num }}</view>
+        <ey-badge :value="num"></ey-badge>
       </view>
       <view class="right">
         <slot name="extra"></slot>
@@ -78,24 +78,11 @@ export default {
       }
 
       .text {
-        margin-left: $uni-spacing-row-sm;
+        margin: 0 $uni-spacing-row-sm;
         font-size: $uni-font-size-lg;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-      }
-
-      .bubble {
-        height: $uni-font-size-lg;
-        margin-left: $uni-spacing-row-sm;
-        padding: 0 10rpx;
-        font-size: $uni-font-size-sm;
-        background: $uni-color-error;
-        color: #FFFFFF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: $uni-font-size-lg;
       }
     }
 

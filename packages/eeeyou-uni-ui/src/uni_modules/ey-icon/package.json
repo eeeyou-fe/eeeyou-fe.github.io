@@ -2,7 +2,7 @@
   "id": "ey-icon",
   "displayName": "EyouUI 图标",
   "version": "0.1.0",
-  "description": "图标组件，用于展示移动端常见的图标",
+  "description": "图标组件",
   "keywords": [
     "图标"
 ],

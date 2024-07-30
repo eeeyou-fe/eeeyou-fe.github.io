@@ -2,7 +2,7 @@
   "id": "ey-cell",
   "displayName": "EyouUI 单元格",
   "version": "0.0.1",
-  "description": "单元格组件，用于展示移动端一组列表的情况",
+  "description": "单元格组件",
   "keywords": [
     "单元格"
   ],

@@ -1,10 +1,10 @@
 {
-  "id": "ey-line",
-  "displayName": "EyouUI 线段",
+  "id": "ey-divider",
+  "displayName": "EyouUI 分割线",
   "version": "0.0.1",
-  "description": "线段组件，用于展示移动端一条线段",
+  "description": "分割线组件",
   "keywords": [
-    "线段"
+    "分割线"
   ],
   "dcloudext": {
     "type": "component-vue",

@@ -20,6 +20,15 @@
 		},
 		{
 			"path": "pages/components/tag/tag"
+		},
+		{
+			"path": "pages/components/badge/badge"
+		},
+		{
+			"path": "pages/components/divider/divider"
+		},
+		{
+			"path": "pages/components/title/title"
 		}
 	],
 	"globalStyle": {

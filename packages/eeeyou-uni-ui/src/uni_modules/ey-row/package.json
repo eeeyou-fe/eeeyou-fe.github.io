@@ -1,10 +1,10 @@
 {
-  "id": "ey-button",
-  "displayName": "EyouUI 按钮",
+  "id": "ey-row",
+  "displayName": "EyouUI 布局-行",
   "version": "0.0.1",
-  "description": "按钮组件",
+  "description": "布局组件-行",
   "keywords": [
-    "按钮"
+    "布局"
   ],
   "dcloudext": {
     "type": "component-vue",
@@ -13,10 +13,5 @@
       "data": "插件不采集任何数据",
       "permissions": "无"
     }
-  },
-  "uni_modules": {
-    "dependencies": [
-      "ey-icon"
-    ]
   }
 }

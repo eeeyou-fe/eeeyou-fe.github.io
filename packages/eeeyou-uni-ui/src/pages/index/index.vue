@@ -16,6 +16,9 @@
   <ey-cell title="Icon 图标" icon="right" @click="jump('/icon/icon')"></ey-cell>
   <ey-cell title="Row&Col 布局" icon="right" @click="jump('/layout/layout')"></ey-cell>
   <ey-cell title="Tag 标签" icon="right" @click="jump('/tag/tag')"></ey-cell>
+  <ey-cell title="Badge 徽标" icon="right" @click="jump('/badge/badge')"></ey-cell>
+  <ey-cell title="Divider 分割线" icon="right" @click="jump('/divider/divider')"></ey-cell>
+  <ey-cell title="Title 标题" icon="right" @click="jump('/title/title')"></ey-cell>
   <ey-title title="表单组件"></ey-title>
   <ey-cell title="Button 按钮" icon="right" @click="jump('/button/button')"></ey-cell>
 </template>

@@ -1,10 +1,10 @@
 {
-  "id": "ey-button",
-  "displayName": "EyouUI 按钮",
+  "id": "ey-badge",
+  "displayName": "EyouUI 徽标",
   "version": "0.0.1",
-  "description": "按钮组件",
+  "description": "徽标组件",
   "keywords": [
-    "按钮"
+    "徽标"
   ],
   "dcloudext": {
     "type": "component-vue",
@@ -13,10 +13,5 @@
       "data": "插件不采集任何数据",
       "permissions": "无"
     }
-  },
-  "uni_modules": {
-    "dependencies": [
-      "ey-icon"
-    ]
   }
 }

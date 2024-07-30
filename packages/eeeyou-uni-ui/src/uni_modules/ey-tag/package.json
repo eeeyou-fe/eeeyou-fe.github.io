@@ -2,7 +2,7 @@
   "id": "ey-tag",
   "displayName": "EyouUI 标签",
   "version": "0.0.1",
-  "description": "标签组件，用于展示移动端一组标签",
+  "description": "标签组件",
   "keywords": [
     "标签"
   ],

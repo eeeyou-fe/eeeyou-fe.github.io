@@ -1,17 +1,17 @@
 <template>
-  <view class="ey-line" :style="lineStyle"></view>
+  <view class="ey-divider" :style="dividerStyle"></view>
 </template>
 <script>
-import line from "../line.module.scss";
+import divider from "../divider.module.scss";
 export default {
-  name: "EyLine",
+  name: "EyDivider",
   options: {
     virtualHost: true,
   },
   props: {
     color: {
       type: String,
-      default: line.borderColor,
+      default: divider.borderColor,
     },
     vertical: {
       type: Boolean,
@@ -19,7 +19,7 @@ export default {
     },
     margin: {
       type: String,
-      default: line.spacingBase + ' 0',
+      default: divider.spacingBase,
     },
     dashed: {
       type: Boolean,
@@ -27,15 +27,17 @@ export default {
     }
   },
   computed: {
-    lineStyle() {
+    dividerStyle() {
       const style = {};
       if (!this.vertical) {
-        style.margin = this.margin;
         style.borderBottomWidth = '1px';
+        style.margin = this.margin + ' 0';
         style.borderBottomStyle = this.dashed ? 'dashed' : 'solid';
       } else {
         style.height = '1em';
+        style.display = 'inline-block';
         style.borderLeftWidth = '1px';
+        style.margin = '0 ' + this.margin;
         style.borderLeftStyle = this.dashed ? 'dashed' : 'solid';
       }
       style.borderColor = this.color;
@@ -44,3 +46,8 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+.ey-divider {
+  display: block;
+}
+</style>

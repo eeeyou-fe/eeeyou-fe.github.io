@@ -2,7 +2,7 @@
   "id": "ey-title",
   "displayName": "EyouUI 标题",
   "version": "0.0.1",
-  "description": "标题组件，用于展示移动端的标题信息",
+  "description": "标题组件",
   "keywords": [
     "标题"
   ],
@@ -16,7 +16,8 @@
   },
   "uni_modules": {
     "dependencies": [
-      "ey-icon"
+      "ey-icon",
+      "ey-badge"
     ]
   }
 }
