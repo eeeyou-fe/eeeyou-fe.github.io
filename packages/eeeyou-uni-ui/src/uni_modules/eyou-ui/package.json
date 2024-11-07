@@ -6,7 +6,7 @@
   "keywords": [
     "EyouUI",
     "易油互联"
-],
+  ],
   "repository": "https://github.com/eeeyou-fe",
   "engines": {
     "HBuilderX": "^3.1.0"
@@ -21,7 +21,15 @@
   },
   "uni_modules": {
     "dependencies": [
-      "ey-icon"
+      "ey-badge",
+      "ey-button",
+      "ey-cell",
+      "ey-col",
+      "ey-divider",
+      "ey-icon",
+      "ey-row",
+      "ey-tag",
+      "ey-title"
     ],
     "encrypt": [],
     "platforms": {

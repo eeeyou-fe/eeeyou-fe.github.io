@@ -1,46 +1,62 @@
 <template>
   <view class="content">
-    <image class="logo" src="/static/logo.png"></image>
+    <view class="logo">
+      <image src="/static/logo.png"></image>
+    </view>
     <view class="text-area">
       <text class="title">{{ title }}</text>
+      <text class="sub-title">{{ subTitle }}</text>
     </view>
+  </view>
+  <view style="padding: 0 20rpx; color: #666;">
+    EyouUI, 基于uni-app开发生态的UI框架，致力打造移动全平台可用的企业级解决方案
   </view>
 </template>
 
 <script>
 export default {
   data() {
-    return {}
+    return {
+      title: "EyouUI",
+      subTitle: "易油互联移动端跨平台UI框架"
+    }
   },
-  onLoad() {},
   methods: {},
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding: 20rpx;
 }
 
 .logo {
-  height: 200rpx;
-  width: 200rpx;
-  margin-top: 200rpx;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50rpx;
+  height: 60rpx;
+  width: 60rpx;
+  padding: 30rpx;
+  border-radius: 60rpx;
+  background: $uni-color-primary;
+
+  image {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .text-area {
   display: flex;
+  flex-direction: column;
+  padding-left: 24rpx;
   justify-content: center;
 }
 
 .title {
-  font-size: 36rpx;
-  color: #8f8f94;
+  font-size: 40rpx;
+}
+
+.sub-title {
+  font-size: 32rpx;
+  color: #999;
 }
 </style>

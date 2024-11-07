@@ -1,0 +1,10 @@
+{
+  "name": "eyou-ui",
+  "version": "0.0.1",
+  "description": "EyouUI，基于uni-app开发生态的移动端跨平台UI框架",
+  "author": "xuhailong",
+  "repository": "https://github.com/eeeyou-fe",
+  "scripts": {
+		"build": "node build/index.js"
+	}
+}

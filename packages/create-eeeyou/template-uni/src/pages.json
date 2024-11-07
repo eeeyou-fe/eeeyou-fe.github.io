@@ -1,16 +1,40 @@
 {
 	"pages": [
 		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/help/help"
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "EyouUI",
+		"navigationBarBackgroundColor": "#409EFF"
+	},
+	"tabBar": {
+		"fontSize": "12px",
+		"color": "#303133",
+		"selectedColor": "#409EFF",
+		"list": [
+			{
+				"selectedIconPath": "static/tabbar/index2.png",
+				"iconPath": "static/tabbar/index1.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"selectedIconPath": "static/tabbar/help2.png",
+				"iconPath": "static/tabbar/help1.png",
+				"pagePath": "pages/help/help",
+				"text": "帮助"
+			}
+		]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^ey-(.*)": "eyou-ui/lib/ey-$1/ey-$1.vue"
+		}
 	}
 }
